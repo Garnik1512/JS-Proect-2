@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229, 229, 248);
+}
+header {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(72, 110, 235);
+    display: flex;
+
+}
+header img {
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(72, 110, 235);
+}
+.search {
+margin-left: 100vh;
+margin-top: 15vh;
+}
+header h1 {
+    font-size: 40px;
+   background-color: rgb(72, 110, 235);
+color: white;
+    
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(72, 110, 235);
+}
+.nav a {
+    background-color: rgb(72, 110, 235);
+    color: white;
+    padding: 45px;
+    font-size: 30px;
+}
+main {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.block img {
+    height: 650px;
+    width: 650px;
+    animation: animatenew 0.5s infinite alternate-reverse ;
+}
+@keyframes animatenew {
+    from {
+        transform: rotate(1deg);
+    }
+
+    to {
+        transform: rotate(-1deg);
+    }
+}
+.block {
+    height: 800px;
+    width: 800px;
+    text-align: center;
+}
+input{
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(9, 80, 138);
+    color: white;
+    animation: newanim 0.2s infinite alternate ; 
+    height: 45px;
+    width: 180px;
+    margin: 10px;
+}
+
+.btn1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+@keyframes newanim {
+    from {
+        transform: rotate(1deg);
+    }
+    to {
+        transform: rotate(-1deg);
+    }
+    
+}
+footer img {
+    height: 120px;
+    margin: 50px;
+}
+footer {
+    background-color: black;
+}
